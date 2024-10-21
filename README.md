@@ -1,25 +1,37 @@
 <div align="center">
+  <img src="./moejet/assets/logo.png" alt="MoE Jetpack Logo" width="12%">
+</div>
 
-<img src="./moejet/assets/logo.png" alt="Logo" width="12%" style="margin: 0 auto;" > 
-
-###  [MoE Jetpack: From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks](https://arxiv.org/abs/2406.04801)
-
-[Xingkui Zhu](https://scholar.google.com/citations?user=wKKiNQkAAAAJ&hl=zh-CN) <sup>* </sup>,
-[Yiran Guan](https://scholar.google.com.hk/citations?user=1Gx_r4wAAAAJ&hl=zh-CN)  <sup>* </sup>,
-Dingkang Liang </sup>,
-Yuchao Chen </sup>,
-Yuliang liu </sup>,
-[Xiang Bai](https://xbai.vlrlab.net) <sup>✉</sup>
-<br>
-Huazhong University of Science and Technology,
-<br>
-\* Equal contribution, ✉ Corresponding author.
-<br>
+<div align="center">
+  <h1 style="font-size: 2.5rem;">MoE Jetpack</h1>
+  <h3 style="font-size: 1.2rem;">From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks</h3>
+</div>
 
 
-[**NeurIPS 2024**](https://neurips.cc/virtual/2024/poster/95262) | [**arXiv**](https://arxiv.org/abs/2406.04801)
-<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=wKKiNQkAAAAJ&hl=zh-CN"><b>Xingkui Zhu</b></a><sup>*</sup>,
+  <a href="https://scholar.google.com.hk/citations?user=1Gx_r4wAAAAJ&hl=zh-CN"><b>Yiran Guan</b></a><sup>*</sup>,
+  Dingkang Liang,
+  Yuchao Chen,
+  Yuliang Liu,
+  <a href="https://xbai.vlrlab.net"><b>Xiang Bai</b></a><sup>✉</sup>
+</p>
 
+<p align="center">
+  <i>Huazhong University of Science and Technology</i>
+</p>
+
+<p align="center">
+  <sup>*</sup> Equal Contribution &nbsp;&nbsp;&nbsp;&nbsp; <sup>✉</sup> Corresponding Author
+</p>
+
+<div align="center">
+  <a href="https://neurips.cc/virtual/2024/poster/95262"><b>NeurIPS 2024</b></a> |
+  <a href="https://arxiv.org/abs/2406.04801"><b>arXiv</b></a>
+</div>
+
+<div align="center">
+  <h5>If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 </div>
 
 ## 📣 News
