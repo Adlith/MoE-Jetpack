@@ -36,45 +36,44 @@
 
 ## 📣 News
 * **2024.09.26**: MoE Jetpack has been accepted by NeurIPS 2024. 🎉
-* **2024.06.7**: MoE Jetpack paper released. 🔥
+* **2024.06.07**: MoE Jetpack paper released. 🔥
 
 ## ⭐️ Highlights
 * 🔥 **Strong performance**. MoE Jetpack boosts accuracy across multiple vision tasks, outperforming both dense and Soft MoE models.
-<div align=center>
-<img src="moejet/assets/MoE Jetpack.jpg" width="760px">
+<div align="center">
+  <img src="moejet/assets/MoE Jetpack.jpg" width="760px">
 </div>
 
 * ⚡ **Fast Convergence**. Leveraging checkpoint recycling, MoE Jetpack speeds up convergence, achieving target accuracies significantly faster than training from scratch.
-<div align=center>
-<img src="moejet/assets/analysis.jpg" width="760px">
+<div align="center">
+  <img src="moejet/assets/analysis.jpg" width="760px">
 </div>
 
+* 🤝 **Strong generalization**. MoE Jetpack achieves significant performance improvements on both Transformer and CNN across 8 downstream vision datasets.
 
-* 🤝 **Strong generalization**. MoE Jetpack achieve significant performance improvements on both Transformer and CNN on 8 downstream vision datasets.
-
-* 😮 **Running Efficiency**.  We provide an efficient implementation of the expert's parallelisation, whereby the FLOPs and training wall time remain nearly identical to those of a dense model.
+* 😮 **Running Efficiency**. We provide an efficient implementation of expert parallelization, whereby the FLOPs and training wall time remain nearly identical to those of a dense model.
 
 ## ⚡ Overview
 
-We present MoE Jetpack, a framework that fine-tunes pre-trained dense models into Mixture of Experts with checkpoint recycling and SpheroMoE layers, improving convergence speed, accuracy, and computational efficiency in several down stream visual tasks.
+We present **MoE Jetpack**, a framework that fine-tunes pre-trained dense models into **Mixture of Experts** with **checkpoint recycling** and **SpheroMoE** layers, improving convergence speed, accuracy, and computational efficiency across several downstream vision tasks.
 
-<div align=center>
-<img src="moejet/assets/main_idea.jpg" width="800px">
+<div align="center">
+  <img src="moejet/assets/main_idea.jpg" width="800px">
 </div>
-
 
 ## 📦 Download URL
 
-| File Type                           | Description                                                                | Download Link (Google Drive)                                      |
-|-------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------------|
-| **Checkpoint Recycling**            |    **Sampling from Dense Checkpoints to Initialize MoE  Weights**                            |                                                                   |
-| Dense Checkpoint (ViT-T)            | Pre-trained ViT-T weights on ImageNet-21k for checkpoint recycling          | 🤗 [ViT-T Weights](https://drive.google.com/file/d/1AIFPxqlXfCTXvTzA4R6BIujvloMURzRZ/view?usp=sharing)                  |
-| Dense Checkpoint (ViT-S)            | Pre-trained ViT-S weights on ImageNet-21k for checkpoint recycling          | 🤗 [ViT-S Weights](https://drive.google.com/file/d/1-E4XgHxVb1XsE4_YKzCHQlKlowcmANLX/view?usp=sharing)                  |
-| MoE Jetpck Init Weights                    |  Initialized weight using checkpoint recycling (ViT-T/ViT-S)      | [MoE Init Weights](https://drive.google.com/file/d/156E_8hgU1JtSON6TLb69iCQK5nF7clmE/view?usp=sharing)               |
-| **MoE Jetpack** |      **Fine-tuning initilized SpheroMoE on ImageNet-1k**   |                 |
-| Config          | Config file for fine-tuning SpheroMoE model using checkpoint recycling weights | [MoE Jetpack Config](https://drive.google.com/file/d/1gHsMDicJCPq_dV2RATIpH59jCxtsOdnd/view?usp=sharing)  |
-| Fine-tuning Logs                          | Logs from fine-tuning SpheroMoE                                           | [MoE Jetpack Logs](https://drive.google.com/file/d/1_9VLw8C2AgfIW5xeaVcJgk8efhhWnCEo/view?usp=sharing)               |
-| MoE Jetpack Weights                 | Final weights after fine-tuning on ImageNet-1K       | [MoE Jetpack Weights](https://drive.google.com/file/d/1em88nNFf6vVNA4ert4URlSQMaTwMxPKY/view?usp=sharing)            |
+| **File Type**                       | **Description**                                                            | **Download Link (Google Drive)**                                 |
+|-------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------|
+| **Checkpoint Recycling**            | Sampling from Dense Checkpoints to Initialize MoE Weights                  |                                                                  |
+| Dense Checkpoint (ViT-T)            | Pre-trained ViT-T weights on ImageNet-21k for checkpoint recycling          | 🤗 [ViT-T Weights](https://drive.google.com/file/d/1AIFPxqlXfCTXvTzA4R6BIujvloMURzRZ/view?usp=sharing) |
+| Dense Checkpoint (ViT-S)            | Pre-trained ViT-S weights on ImageNet-21k for checkpoint recycling          | 🤗 [ViT-S Weights](https://drive.google.com/file/d/1-E4XgHxVb1XsE4_YKzCHQlKlowcmANLX/view?usp=sharing) |
+| MoE Jetpack Init Weights            | Initialized weights using checkpoint recycling (ViT-T/ViT-S)               | [MoE Init Weights](https://drive.google.com/file/d/156E_8hgU1JtSON6TLb69iCQK5nF7clmE/view?usp=sharing) |
+| **MoE Jetpack**                     | Fine-tuning initialized SpheroMoE on ImageNet-1k                           |                                                                  |
+| Config                              | Config file for fine-tuning SpheroMoE model using checkpoint recycling weights | [MoE Jetpack Config](https://drive.google.com/file/d/1gHsMDicJCPq_dV2RATIpH59jCxtsOdnd/view?usp=sharing) |
+| Fine-tuning Logs                    | Logs from fine-tuning SpheroMoE                                            | [MoE Jetpack Logs](https://drive.google.com/file/d/1_9VLw8C2AgfIW5xeaVcJgk8efhhWnCEo/view?usp=sharing) |
+| MoE Jetpack Weights                 | Final weights after fine-tuning on ImageNet-1K                             | [MoE Jetpack Weights](https://drive.google.com/file/d/1em88nNFf6vVNA4ert4URlSQMaTwMxPKY/view?usp=sharing) |
+
 
 
 
@@ -199,6 +198,8 @@ To customize hyperparameters, modify the relevant settings in the [configuration
 ```
 
 ## 👍 Acknowledgement
-We thank these great works and open-source repositories:
-[MMPreTrain](https://github.com/open-mmlab/mmpretrain), [Soft MoE](https://github.com/google-research/vmoe/tree/main/vmoe/projects/soft_moe), [Weight Selection](https://github.com/OscarXZQ/weight-selection).
+We thank the following great works and open-source repositories:
+- [MMPreTrain](https://github.com/open-mmlab/mmpretrain)
+- [Soft MoE](https://github.com/google-research/vmoe/tree/main/vmoe/projects/soft_moe)
+- [Weight Selection](https://github.com/OscarXZQ/weight-selection)
 
