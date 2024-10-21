@@ -120,18 +120,18 @@ MoE-Jetpack/
 │   │   └── ...
 │   └── ...
 │
-├── moejet/                         # Main project folder
+├── moejet/                          # Main project folder
 │   ├── configs/                     # Configuration files
-│   │   └── timm/                    # Contains config files for training MoE Jetpack
+│   │   └── timm/                    
 │   │       ├── vit_tiny_dual_moe_timm_21k_ft.py 
 │   │       └── ...                 
 │   │
 │   ├── models/                      # Contains the model definition files
 │   │   └── ...                      
 │   │
-│   ├── tools/                       # Utility scripts and tools
-│   │   └── gen_weight/              # Contains scripts for generating MoE weights from dense models
-│   │       └── gen_ViT_MoE_weight.py # Script to convert ViT dense checkpoints into MoE format
+│   ├── tools/                       
+│   │   └── gen_ViT_MoE_weight.py    # Script to convert ViT dense checkpoints into MoE format
+│   │       
 │   │
 │   ├── weights/                     # Folder for storing pre-trained weights
 │   │   └── gen_weight/              # MoE initialization weights go here
