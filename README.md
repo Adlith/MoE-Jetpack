@@ -1,9 +1,11 @@
 <div align="center">
 
-### <img src="./moejet/assets/logo.png" alt="Logo" width="4%" style="margin: 0 auto;" > [MoE Jetpack: From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks](https://arxiv.org/abs/2406.04801)
+<img src="./moejet/assets/logo.png" alt="Logo" width="12%" style="margin: 0 auto;" > 
+
+###  [MoE Jetpack: From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks](https://arxiv.org/abs/2406.04801)
 
 [Xingkui Zhu](https://scholar.google.com/citations?user=wKKiNQkAAAAJ&hl=zh-CN) <sup>* </sup>,
-Yiran Guan  <sup>* </sup>,
+[Yiran Guan](https://scholar.google.com.hk/citations?user=1Gx_r4wAAAAJ&hl=zh-CN)  <sup>* </sup>,
 Dingkang Liang </sup>,
 Yuchao Chen </sup>,
 Yuliang liu </sup>,
