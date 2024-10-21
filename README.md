@@ -147,10 +147,19 @@ MoE-Jetpack/
 
 
 ### 🗝️ Training & Validating
-* The training & Testing code is built on [MMPretrain](https://github.com/open-mmlab/mmpretrain). Please refer to [Training Doc](https://mmpretrain.readthedocs.io/en/latest/user_guides/train.html#train) for more details.
+
+#### 1. Initialize MoE Weights (Checkpoint Recycling)
+Run the following script to initialize the MoE weights from pre-trained ViT weights:
+
+```bash
+python moejet/tools/gen_ViT_MoE_weight.py
+```
+#### 2. Start Training
+
+* The training and testing code is built on [MMPretrain](https://github.com/open-mmlab/mmpretrain). Please refer to the [Training Documentation](https://mmpretrain.readthedocs.io/en/latest/user_guides/train.html#train) for more details.
 
 ```python
-# For example, train MoE Jet on Imgnet-1K
+# For example, to train MoE Jet on ImageNet-1K, use:
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 ./tools/dist_train.sh moejet/configs/timm/vit_tiny_dual_moe_timm_21k_ft.py 4
 ```
