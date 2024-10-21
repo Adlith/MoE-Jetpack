@@ -156,7 +156,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 ./tools/dist_train.sh moejet/configs/tim
 ```
 By default, we use **4 GPUs** with a **batch size of 256 per GPU**. Gradient accumulation simulates a **total batch size of 4096**.
 
-To customize hyperparameters, modify the relevant settings in the [configuration file](moejet/configs/timm/vit_tiny_dual_moe_timm_21k_ft.py#L11-15).
+To customize hyperparameters, modify the relevant settings in the [configuration file](moejet/configs/timm/vit_tiny_dual_moe_timm_21k_ft.py#L11-L15).
 
 
 
