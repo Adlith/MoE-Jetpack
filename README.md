@@ -113,6 +113,13 @@ Below is an overview of the **MoE Jetpack** project structure with descriptions 
 ```bash
 MoE-Jetpack/
 │
+├── data/
+│   ├── imagenet/
+│   │   ├── train/
+│   │   ├── val/
+│   │   └── ...
+│   └── ...
+│
 ├── moejet/                         # Main project folder
 │   ├── configs/                     # Configuration files
 │   │   └── timm/                    # Contains config files for training MoE Jetpack
