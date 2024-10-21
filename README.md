@@ -51,7 +51,7 @@ We present MoE Jetpack, a framework that fine-tunes pre-trained dense models int
 
 ## 📦 Download URL
 
-| File Type                           | Description                                                                | Download Link                                                     |
+| File Type                           | Description                                                                | Download Link (Google Drive)                                      |
 |-------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------------|
 | **Checkpoint Recycling**            |    **Sampling from Dense Checkpoints to Initialize MoE  Weights**                            |                                                                   |
 | Dense Checkpoint (ViT-T)            | Pre-trained ViT-T weights on ImageNet-21k for checkpoint recycling          | 🤗 [ViT-T Weights](https://drive.google.com/file/d/1AIFPxqlXfCTXvTzA4R6BIujvloMURzRZ/view?usp=sharing)                  |
@@ -147,13 +147,17 @@ MoE-Jetpack/
 
 
 ## 🗝️ Training & Validating
-* The training & Testing code is built on [MMPretrain](https://github.com/open-mmlab/mmpretrain). Please refer[Training Doc](https://mmpretrain.readthedocs.io/en/latest/user_guides/train.html#train) for more details.
+* The training & Testing code is built on [MMPretrain](https://github.com/open-mmlab/mmpretrain). Please refer to [Training Doc](https://mmpretrain.readthedocs.io/en/latest/user_guides/train.html#train) for more details.
 
 ```python
 # For example, train MoE Jet on Imgnet-1K
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 ./tools/dist_train.sh moejet/configs/timm/vit_tiny_dual_moe_timm_21k_ft.py 4
 ```
+By default, we use **4 GPUs** with a **batch size of 256 per GPU**. Gradient accumulation simulates a **total batch size of 4096**.
+
+To customize hyperparameters, modify the relevant settings in the [configuration file](moejet/configs/timm/vit_tiny_dual_moe_timm_21k_ft.py#L11).
+
 
 
 <!-- ## 📅 TODO
