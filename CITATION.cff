@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "OpenMMLab's Pre-training Toolbox and Benchmark"
+title: "MoE Jetpack: From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks"
 authors:
-  - name: "MMPreTrain Contributors"
-version: 0.15.0
-date-released: 2023-04-06
-repository-code: "https://github.com/open-mmlab/mmpretrain"
+  - name: "Xingkui Zhu, Yiran Guan, Dingkang Liang, Yuchao Chen, Yuliang Liu, Xiang Bai"
+version: 1.0.0
+date-released: 2024-10-21
+repository-code: "https://github.com/Adlith/MoE-Jetpack"
 license: Apache-2.0
