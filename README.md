@@ -77,20 +77,20 @@ We present MoE Jetpack, a framework that fine-tunes pre-trained dense models int
 
 ## 🚀 Getting Started
 <!-- 快速测试 和 训练的脚本 -->
-## 🔧 Installation
+### 🔧 Installation
 Follow these steps to set up the environment for **MoE Jetpack**:
 
-### 1. Install [PyTorch v2.1.0](https://pytorch.org/get-started/previous-versions/#v210:~:text=org/whl/cpu-,v2.1.0,-Conda) with CUDA 12.1
+#### 1. Install [PyTorch v2.1.0](https://pytorch.org/get-started/previous-versions/#v210:~:text=org/whl/cpu-,v2.1.0,-Conda) with CUDA 12.1
 ```bash
 pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
 ```
 
-### 2. Install [MMCV 2.1.0](https://mmcv.readthedocs.io/en/latest/get_started/installation.html#install-mmcv:~:text=Select%20the%20appropriate%20installation%20command%20depending%20on%20the%20type%20of%20system%2C%20CUDA%20version%2C%20PyTorch%20version%2C%20and%20MMCV%20version)
+#### 2. Install [MMCV 2.1.0](https://mmcv.readthedocs.io/en/latest/get_started/installation.html#install-mmcv:~:text=Select%20the%20appropriate%20installation%20command%20depending%20on%20the%20type%20of%20system%2C%20CUDA%20version%2C%20PyTorch%20version%2C%20and%20MMCV%20version)
 ```bash
 pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html
 ```
 
-### 3. Install MoE Jetpack 
+#### 3. Install MoE Jetpack 
 Clone the repository and install it:
 ```bash
 git clone https://github.com/Adlith/MoE-Jetpack.git
@@ -99,14 +99,14 @@ pip install -U openmim && mim install -e .
 ```
 For more details and prepare datasets, refer to [MMPretrain Installation](https://mmpretrain.readthedocs.io/en/latest/get_started.html#install-from-source)
 
-### 4. Install Additional Dependencies
+#### 4. Install Additional Dependencies
 ```bash
 pip install timm einops entmax python-louvain scikit-learn pymetis
 ```
 
 Now you're ready to run MoE Jetpack!
 
-## 📁 Project Directory Structure
+### 📁 Project Directory Structure
 
 Below is an overview of the **MoE Jetpack** project structure with descriptions of the key components:
 
@@ -146,7 +146,7 @@ MoE-Jetpack/
 
 
 
-## 🗝️ Training & Validating
+### 🗝️ Training & Validating
 * The training & Testing code is built on [MMPretrain](https://github.com/open-mmlab/mmpretrain). Please refer to [Training Doc](https://mmpretrain.readthedocs.io/en/latest/user_guides/train.html#train) for more details.
 
 ```python
