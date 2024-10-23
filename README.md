@@ -200,6 +200,7 @@ To customize hyperparameters, modify the relevant settings in the [configuration
 ## 👍 Acknowledgement
 We thank the following great works and open-source repositories:
 - [MMPreTrain](https://github.com/open-mmlab/mmpretrain)
-- [Soft MoE](https://github.com/google-research/vmoe/tree/main/vmoe/projects/soft_moe)
+- [Official Soft MoE](https://github.com/google-research/vmoe/tree/main/vmoe/projects/soft_moe)
+- [Soft MoE PyTorch (by lucidrains)](https://github.com/lucidrains/soft-moe-pytorch)
 - [Weight Selection](https://github.com/OscarXZQ/weight-selection)
 
