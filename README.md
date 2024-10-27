@@ -13,8 +13,8 @@
   <a href="https://scholar.google.com.hk/citations?user=1Gx_r4wAAAAJ&hl=zh-CN"><b>Yiran Guan</b></a><sup>*</sup>,
   Dingkang Liang,
   Yuchao Chen,
-  Yuliang Liu,
-  <a href="https://xbai.vlrlab.net"><b>Xiang Bai</b></a><sup>✉</sup>
+  <b>Yuliang Liu</b><sup>✉</sup>,
+  Xiang Bai
 </p>
 
 <p align="center">
