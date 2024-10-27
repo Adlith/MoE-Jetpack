@@ -192,7 +192,7 @@ To customize hyperparameters, modify the relevant settings in the [configuration
 @article{zhu2024moe,
   title={MoE Jetpack: From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks},
   author={Xingkui Zhu, Yiran Guan, Dingkang Liang, Yuchao Chen, Yuliang Liu, Xiang Bai},
-  journal={Advances in Neural Information Processing Systems},
+  journal={Proceedings of Advances in Neural Information Processing Systems},
   year={2024}
   }
 ```
