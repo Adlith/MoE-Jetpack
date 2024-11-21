@@ -14,7 +14,7 @@
   Dingkang Liang,
   Yuchao Chen,
   <a href="https://github.com/yuliang-liu"><b>Yuliang Liu</b></a><sup>✉</sup>,
-  <a href="https://xbai.vlrlab.net/">Xiang Bai</a>
+  <a href="https://xbai.vlrlab.net/"><b>Xiang Bai</b></a>
 </p>
 
 <p align="center">
@@ -27,7 +27,8 @@
 
 <div align="center">
   <a href="https://neurips.cc/virtual/2024/poster/95262"><b>NeurIPS 2024</b></a> |
-  <a href="https://arxiv.org/abs/2406.04801"><b>arXiv</b></a>
+  <a href="https://arxiv.org/abs/2406.04801"><b>arXiv</b></a> |
+  <a href="https://zhuanlan.zhihu.com/p/4492537069">中文解读</a>
 </div>
 
 <div align="center">
